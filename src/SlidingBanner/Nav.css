@@ -1,0 +1,57 @@
+/* Hide thumbnails */
+.carousel .thumbs-wrapper {
+  display: none;
+}
+
+/* Remove carousel status display */
+.carousel-status {
+  display: none;
+}
+
+/* Carousel image styles */
+.carousel img {
+  /* width: 100%;
+  display: inline-block;
+  pointer-events: none;
+  height: fit-content; */
+  /* overflow: hidden; */
+  height: calc(100vh - 53px);
+  object-fit: cover;
+  touch-action: auto;
+  -ms-touch-action: auto;
+  height: calc(100vh - 53px); /* Adjust height based on viewport */
+  object-fit: cover; /* Maintain cover style for larger images */
+  touch-action: auto; /* Allow touch scroll on mobile */
+}
+
+/* Carousel slider container */
+.carousel-slider {
+  /* height: calc(100vh - 53px); */
+  object-fit: cover;
+  touch-action: auto;
+  -ms-touch-action: auto;
+  touch-action: pan-y; /* Allow vertical scrolling */
+  overflow: auto !important; /* Ensure overflow on touch devices */
+}
+
+/* Control dots margin */
+.control-dots {
+  margin-bottom: 28px !important;
+}
+
+/* Styles for mobile view */
+@media (max-width: 768px) {
+  .carousel-slider {
+    height: auto;
+  }
+  .carousel img {
+    height: auto;
+    object-fit: contain;
+    object-fit: contain; /* Fit smaller images without cropping */
+  }
+}
+
+/* Ensure proper scrollability */
+.carousel.carousel-slider {
+  overflow: auto !important;
+}

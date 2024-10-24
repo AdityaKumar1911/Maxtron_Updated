@@ -1,0 +1,206 @@
+/* WhyChooseMaxtron.css */
+.maxtron-section {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
+  margin: 50px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #0a3d62;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section-story {
+  font-size: 1.2rem;
+  color: #5c5c5c;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.benefits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.benefit-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1 1 calc(25% - 30px); /* Four cards per row */
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.benefit-card h3 {
+  font-size: 1.5rem;
+  color: #0a3d62;
+  margin-bottom: 15px;
+}
+
+.benefit-card p {
+  font-size: 1rem;
+  color: #6d7993;
+  line-height: 1.5;
+  text-align: justify;
+  word-spacing: -1.5px;
+}
+
+.viewmorewhy {
+  text-align: end;
+  padding-right: 30px;
+}
+
+.viewmorewhy p {
+  color: cadetblue;
+  cursor: pointer;
+  padding-top: 23px;
+  text-align: end;
+  padding-right: 108px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .benefit-card {
+    flex: 1 1 calc(50% - 30px); /* Two cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .benefit-card {
+    flex: 1 1 100%; /* One card per row */
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-story {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-story {
+    font-size: 1rem;
+  }
+}
+
+.frame {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+/* .frame button {
+  margin: 20px;
+} */
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  /* padding: 10px 25px; */
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+/* 4 */
+.btn-4 {
+  background-color: #00e676;
+  background-image: linear-gradient(315deg, 0%, #3df286 74%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+/* .btn-4:hover {
+  background-color: #89d8d3;
+  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+} */
+.btn-4 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-4:before,
+.btn-4:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-4:before {
+  height: 0%;
+  width: 0.1px;
+}
+.btn-4:after {
+  width: 0%;
+  height: 0.1px;
+}
+.btn-4:hover:before {
+  height: 100%;
+}
+.btn-4:hover:after {
+  width: 100%;
+}
+.btn-4 span:before,
+.btn-4 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-4 span:before {
+  width: 0.1px;
+  height: 0%;
+}
+.btn-4 span:after {
+  width: 0%;
+  height: 0.1px;
+}
+.btn-4 span:hover:before {
+  height: 100%;
+}
+.btn-4 span:hover:after {
+  width: 100%;
+}

@@ -1,0 +1,65 @@
+.left-section_Emi {
+  flex: 1;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.MainSectionG-Emi {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.MainCont-Emi {
+  max-width: 1600px;
+  padding: 50px;
+  margin: 50px 20px;
+  background: linear-gradient(135deg, #d1f2eb, #ffffff);
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.Emi-Slider {
+  color: #1a7f58 !important;
+  width: 300px !important;
+}
+.ChartCont-Emi {
+  flex: 1;
+  height: 400px;
+  margin-left: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .left-section_Emi {
+    margin-right: 0;
+  }
+  .MainSectionG-Emi {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    margin-top: 60px;
+    flex-direction: column;
+  }
+  .MainCont-Emi {
+    padding: 22px;
+  }
+  .Emi-Slider {
+    width: -webkit-fill-available !important;
+  }
+  .ChartCont-Emi {
+    margin-left: 0;
+    margin-top: 20px;
+    width: -webkit-fill-available;
+  }
+  .ChartBar {
+    height: 290px;
+  }
+}

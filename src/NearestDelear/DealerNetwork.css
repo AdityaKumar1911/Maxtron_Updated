@@ -1,0 +1,8 @@
+.ecvTaJ {
+  gap: 20px !important;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+  touch-action: none;
+  position: sticky !important;
+}

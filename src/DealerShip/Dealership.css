@@ -1,0 +1,448 @@
+/* General Styling for the Page */
+.dealer-program-page {
+  background-color: #121212; /* Darker background for modern look */
+  color: #eceff1; /* Lighter font color for better contrast */
+  padding: 50px 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+/* Section Title Styling */
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00e676;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #00e676;
+  margin: 10px auto 0;
+  border-radius: 4px;
+}
+
+/* Unique Selling Proposition List Styling */
+.usp-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0;
+}
+
+.usp-list li {
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.usp-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.usp-list li strong {
+  color: #00e676;
+  font-size: 22px;
+}
+
+/* Partner and How-to Section Styling */
+.partner-benefits,
+.steps,
+.benefits {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.partner-benefits div,
+.steps div,
+.benefits div {
+  /* width: 48%; */
+  background: rgba(255, 255, 255, 0.07); /* Frosted effect */
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.partner-benefits div:before,
+.steps div:before,
+.benefits div:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: skewX(30deg);
+  transition: all 0.5s ease;
+}
+
+.partner-benefits div:hover:before,
+.steps div:hover:before,
+.benefits div:hover:before {
+  left: 150%;
+}
+
+.partner-benefits div:hover,
+.steps div:hover,
+.benefits div:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.partner-benefits div p,
+.steps div p,
+.benefits div p {
+  font-size: 16px;
+  color: #b0bec5;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.partner-benefits div strong,
+.steps div strong,
+.benefits div strong {
+  font-size: 20px;
+  color: #00e676;
+  display: flex !important;
+  justify-content: center;
+}
+
+/* Sections Margins */
+.dealer-program-section,
+.why-partner-section,
+.how-to-become-section,
+.dealership-benefits-section {
+  margin-bottom: 80px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .partner-benefits div,
+  .steps div,
+  .benefits div {
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .usp-list li {
+    font-size: 18px;
+  }
+}
+
+/* Responsive for very small screens */
+@media (max-width: 480px) {
+  .usp-list li {
+    font-size: 16px;
+  }
+
+  .partner-benefits div p,
+  .steps div p,
+  .benefits div p {
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+}
+
+/* Unique Selling Proposition Section Styling */
+.usp-section {
+  /* Darker background for USP section */
+  padding: 60px 20px;
+}
+
+.usp-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #00e676;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.usp-title:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #00e676;
+  margin: 20px auto 0;
+  border-radius: 4px;
+}
+
+/* Card Layout for USP Items */
+.usp-cards {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Individual USP Card */
+.usp-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 30px;
+  /* width: 48%; */
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.usp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* USP Icon */
+.usp-card-icon {
+  font-size: 40px;
+  color: #00e676;
+  margin-bottom: 20px;
+}
+
+/* Number Styling */
+.usp-card-number {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  background-color: #00e676;
+  color: #121212;
+  font-size: 72px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+/* USP Card Content */
+.usp-card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.usp-card-description {
+  font-size: 16px;
+  color: #b0bec5;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .usp-card {
+    width: 100%;
+  }
+  .partner-benefits,
+  .steps,
+  .benefits {
+    grid-template-columns: none;
+  }
+  .usp-cards {
+    grid-template-columns: none;
+  }
+
+  .usp-card-number {
+    top: -20px;
+    left: -20px;
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .usp-card-title {
+    font-size: 20px;
+  }
+
+  .usp-card-description {
+    font-size: 14px;
+  }
+}
+
+/* Dealership Button */
+.btn-open-form {
+  display: block;
+  background-color: #00e676;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.btn-open-form:hover {
+  background-color: #00c864;
+}
+
+/* Dealership Form */
+.dealership-form {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.dealership-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dealership-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.dealership-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+}
+
+.dealership-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #00e676;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.dealership-form button:hover {
+  background-color: #00c864;
+}
+/* Dealership Form */
+.dealership-form {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #2e2e2e; /* Slightly lighter than pure black */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.dealership-form h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dealership-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.dealership-form input {
+  width: 100%;
+  padding: 12px;
+  background-color: #404040; /* Dark input background */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.dealership-form input:focus {
+  background-color: #505050; /* Slightly lighter on focus */
+}
+
+.dealership-form button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #00e676;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.dealership-form button:hover {
+  background-color: #00c864;
+  transform: translateY(-3px);
+}
+
+/* Center the form and add a nice margin between inputs */
+.dealership-form input,
+.dealership-form button {
+  margin-top: 10px;
+}
+
+/* Optional: Add subtle animation to form when it appears */
+.dealership-form {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.5s forwards ease;
+}
+
+@keyframes slideIn {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
