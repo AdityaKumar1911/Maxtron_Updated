@@ -12,24 +12,23 @@ const WhyChooseMaxtron = () => {
       <div className="container">
         <h2 className="section-title">Why Choose Maxtron?</h2>
         <p className="section-story">
-          The main aim behind developing Maxtron- A Great High-Tech EV Scooter
-          Company. The word itself stands for Maximum, meaning anyone can buy
-          this eco-friendly, super comfy, quieter power start, durable battery,
-          light, and speedy electric vehicle without compromising one's budget
-          and quality with quantities.
+          Maxtron aims to create affordable, high-quality EV scooters that
+          bridge the gap between advanced technology, environmental
+          responsibility, and everyday affordability. The company's name,
+          Maxtron, stands for Maximum, as they prioritise maximising every
+          aspect of the user's experience, including performance, comfort, and
+          sustainability while ensuring affordability.
         </p>
 
         <div className="benefits-grid">
           <div className="benefit-card">
             <h3>Affordable, High-Quality Vehicles</h3>
             <p>
-              Maxtron offers high-quality EVs with unlimited services. These
-              pocket-friendly electric vehicles are installed with Aluminium
-              alloy, Lithium, or lead acid batteries with power backup, seamless
-              bluetooth connectivity, LED Light, Reverse Gear, NFC Card, USB
-              Charging, Cruise Control, 123 Speed Control, Remote and Anti-theft
-              alarm, offering daily commuters a hassle-free and smooth
-              experience.
+              Maxtron offers premium, eco-friendly, affordable electric scooters
+              powered by lithium or lead-acid batteries. Our aluminium alloy EV
+              scooters feature Bluetooth connectivity, NFC Card functionality,
+              and USB charging, aiming to make daily commutes hassle-free,
+              comfortable, and smooth.
             </p>
           </div>
 
@@ -38,33 +37,32 @@ const WhyChooseMaxtron = () => {
             <p>
               With 20+ Years of experience in the powerful batteries and
               electric vehicle industries market. Our leading brand, Maxtron, is
-              powered by a legacy of trust, passion, and innovation. Our EV
-              Scooters are launched in a series of sleek designs that offer
-              fashion with comfort and build a robust EV supply chain ecosystem.
+              powered by a legacy of trust, passion, and innovation. Our sleek
+              EV Scooters offer fashion and comfort, fostering a robust supply
+              chain ecosystem and focusing on sustainable transportation
+              solutions.
             </p>
           </div>
 
           <div className="benefit-card">
             <h3>Leading the Electric Mobility Revolution</h3>
             <p>
-              Rapid urbanisation needs modern solutions to reshape the future of
-              transportation. Our brand is leading the electric mobility
-              revolution by emphasising zero-emissions, battery enhancements,
-              safety measures, and efficiency improvements towards an
-              eco-friendly future, innovation in sustainable tech, and
-              empowering dreamers to go green.
+              Our brand, Maxtron, leads the electric mobility revolution,
+              focusing on zero-emissions, battery enhancements, safety measures,
+              efficiency improvements, and sustainable tech innovation. We aim
+              to provide affordable, high-quality electric vehicles that empower
+              individuals to go green.
             </p>
           </div>
 
           <div className="benefit-card">
             <h3>Addressing Rising Fuel Costs</h3>
             <p>
-              Advanced battery technology helps to ease fuel costs by embracing
-              electric mobility- ease, reduced carbon footprint, and positive
-              social impact. EVs are more cost-effective than fuel-powered
-              vehicles, which shows long-term savings in terms of fuel
-              maintenance, making it both a financially and environmentally
-              sustainable choice.
+              Maxtron offers high-tech electric vehicles with lower running
+              costs, utilising advanced battery technology for reduced fuel
+              costs, reduced carbon footprint, and positive social impact. EVs
+              are financially and environmentally sustainable, demonstrating
+              long-term savings in fuel maintenance.
             </p>
           </div>
         </div>

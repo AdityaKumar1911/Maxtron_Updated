@@ -23,10 +23,9 @@ export default function AboutUs() {
         <div className="py-16 px-4 md:px-8 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
           <p className="text-xl text-muted-foreground">
-            At MAXTRON, we're committed to revolutionizing urban mobility with
-            cutting-edge electric scooters. Our mission is to provide
-            eco-friendly, efficient, and stylish transportation solutions for
-            the modern city dweller.
+            Our mission is to create an eco-friendly, comfortable, quieter, and
+            reliable EV accessible to everyone, ensuring the best possible
+            experience for those transitioning towards electric mobility.
           </p>
         </div>
       </section>

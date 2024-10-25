@@ -55,9 +55,13 @@
   font-size: 1rem;
   color: #6d7993;
   line-height: 1.5;
-  text-align: justify;
-  word-spacing: -1.5px;
+  text-align: left; /* Change from justify to left */
+  white-space: normal;
+  margin: 0;
+  padding: 0;
 }
+
+/* word-spacing: -1.5px; */
 
 .viewmorewhy {
   text-align: end;

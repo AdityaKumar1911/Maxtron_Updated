@@ -228,7 +228,8 @@ const WhyChooseMaxtron = () => (
           Why Choose MAXTRON
         </Typography>
         <Typography variant="h5" style={{ marginBottom: "16px" }}>
-          Experience the future of urban mobility
+          The Future of Electric Urban Mobility: Maxtron EV - Empowering Your
+          Drive Today, Tomorrow, and Beyond!
         </Typography>
         <Button
           variant="contained"
