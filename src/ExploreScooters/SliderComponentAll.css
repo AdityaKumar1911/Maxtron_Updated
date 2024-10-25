@@ -80,6 +80,10 @@
   display: block;
 }
 
+.font-face-casd {
+  font-family: "Newmerican";
+}
+
 @media (min-width: 768px) {
   .desktop-view {
     display: block; /* Show grid layout for desktop */

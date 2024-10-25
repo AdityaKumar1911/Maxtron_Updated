@@ -73,13 +73,13 @@ const Navbar = () => {
       <div className="navbar-right">
         {!isMobileView && (
           <>
-            <a href="/dealer" className="nav-link">
+            <a href="/dealer" className="nav-link font-face-gm">
               Dealership
             </a>
             <a href="/testride" className="nav-link">
               Test Ride
             </a>
-      
+
             <a href="/sbooking" className="nav-link order-now">
               Book Now
             </a>

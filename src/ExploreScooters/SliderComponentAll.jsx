@@ -125,7 +125,9 @@ const SliderComponent = () => {
 
   return (
     <div className="slider-container">
-      <h2 className="slider-title">Explore Our Electric Scooters</h2>
+      <h2 className="slider-title font-face-casd">
+        Explore Our Electric Scooters
+      </h2>
       <div className="desktop-view">
         <div className="scooter-grid">
           {scooterData.map((scooter, index) => (

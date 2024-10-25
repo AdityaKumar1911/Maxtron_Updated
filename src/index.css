@@ -27,3 +27,31 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "Monalive";
+  src: local("Monalive"),
+    url("./Font/catelyn-drawn-font/CatelyndrawnRegularDemo-pgq1R.otf")
+      format("truetype");
+  font-weight: bold;
+  font-size: larger;
+}
+
+@font-face {
+  font-family: "Castio3d";
+  src: local("Castio3d"),
+    url("./Font/castio-3d-font/CastioExtruderightDemo-V4d60.otf")
+      format("truetype");
+  font-weight: bold;
+  font-size: larger;
+}
+
+@font-face {
+  font-family: "Newmerican";
+  src: local("Castio3d"),
+    url("./Font/Nexa-Font/Nexa\ Light.otf") format("truetype");
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* blacker-gothic-font */

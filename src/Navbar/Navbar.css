@@ -71,6 +71,11 @@
   left: 0; 
 } */
 
+.font-face-gm {
+  font-family: "Monalive";
+  font-size: larger;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
